@@ -1,0 +1,17 @@
+td{
+    border: 2px solid black;
+}
+caption{
+    color: rgb(30, 5, 76);
+    background-color: rgb(139, 232, 134);
+    border: 3px solid black;
+    font-size: large;
+    font-style:inherit
+}
+th{
+    background-color: aqua;
+    border: 3px solid black;
+}
+tr{
+    background-color: antiquewhite;
+}
