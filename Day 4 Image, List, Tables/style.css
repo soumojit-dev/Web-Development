@@ -15,3 +15,16 @@ th{
 tr{
     background-color: antiquewhite;
 }
+body{
+    background-color: rgb(198, 180, 197);
+}
+dt{
+    font-size: x-large;
+}
+dd{
+    border: 2px solid black;
+}
+dl{
+    font-size: large;
+    font-style: oblique;
+}
