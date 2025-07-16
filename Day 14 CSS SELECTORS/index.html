@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* ELEMENT SELECTORS */
+        div {
+            color: red;
+            background-color: yellow;
+        }
+        
+        /* CLASS SELECTORS */
+        .new {
+            color: green;
+            background-color: white;
+        }
+
+        /* ID SELECTORS */
+        #old {
+            color: blueviolet;
+            background-color: aqua;
+        }
+
+        /* CHILD SELECTORS */
+        div > p {
+            color: blue;
+            background-color: aquamarine;
+        }
+
+        /* DESCENDENT SELECTORS */
+        div article {
+            color: yellowgreen;
+            background-color: blue;
+        }
+
+        /* UNIVERSAL SELECTORS */
+        * {
+            margin: 0;
+            padding: 0%;
+        }
+
+        /* PSEUDO SELECTORS */
+        a:visited{
+            color: green;
+        }
+
+        a:link{
+            color: brown;
+        }
+        a:active{
+            background-color: blueviolet;
+        }
+
+        a:hover{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I am a developer
+    </div>
+
+    <div class="new">
+        Welcome All
+    </div>
+
+    <div id="old">
+        CSS JOURNEY
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste?</p>
+    </div>
+    
+    <div>
+        <span>
+            <article>Hii Guys!!</article>
+        </span>
+    </div>
+    
+    <div class="new">
+        <a href="http://www.google.com">GOOGLE</a>
+        <a href="http://www.facebook.com">FACEBOOK</a>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
