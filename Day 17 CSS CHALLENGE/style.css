@@ -1,0 +1,31 @@
+span{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(30, 119, 88);
+    text-decoration-thickness: 5px;
+}
+.task1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.task2{
+    text-decoration: dotted;
+    text-decoration-line: overline;
+    text-decoration-color: darkblue;
+    text-decoration-thickness: 7px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p:nth-of-type(1){
+    background-color: yellow;
+    color: red;
+    border: 5px solid purple ;
+}
+p{
+    background-color: blue;
+    color: white;
+    border: 5px solid rgb(159, 207, 159);
+}
