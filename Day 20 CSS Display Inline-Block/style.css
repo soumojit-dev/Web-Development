@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid blue;
+    display: inline-block;
+    justify-content: center;
+    margin: 23px;
+    padding: 50px;
+}
+
+body>span {
+    border: 2px solid blue;
+    display: inline-block;
+    justify-content: center;
+    margin: 23px;
+    padding: 50px;
+}
