@@ -1,0 +1,17 @@
+nav ul li {
+    /* list-style: devanagari; */
+    /* border: 10px solid blue;
+            
+            list-style-position: inside;
+            list-style-type: disc;
+            list-style-image: url(https://imgs.search.brave.com/A4FFzt-aV6_ZxySvlE2woVMe6z6NOF0ZsjdG2Qx7Yrg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvY3JheW9u/LXNoaW4tY2hhbi1h/ZG9yYWJsZS1ibHVz/aGluZy0xaXBrN21q/MG9lNzFhdjVrLmdp/Zg.gif); */
+    list-style: none;
+    padding: 25px;
+}
+nav ul {
+    display: flex;
+    border: 2px solid green;
+    border-radius: 25px;
+    outline: 10px solid rgb(73, 56, 142)
+
+}
