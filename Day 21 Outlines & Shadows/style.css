@@ -1,0 +1,18 @@
+.box {
+
+    border: 2px solid black;
+    text-align: center;
+    /* box-shadow: h-offset v-offset blur spread color */
+    box-shadow: 14px 7px 16px 0px #c12020;
+    /* text-shadow: h-offset v-offset blur color */
+    text-shadow: 20px 5px 3px #c12020;
+}
+
+.new {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 58px;
+    outline: 2px solid blue;
+    /* outline-offset: 26px; */
+
+}
