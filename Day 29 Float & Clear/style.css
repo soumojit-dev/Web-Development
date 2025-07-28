@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    display: flow-root;
+}
+
+.boxes>.box {
+    border: 2px solid seagreen;
+}
+
+img {
+    float: right;
+    /*Positions the image to the right*/
+
+}
+
+.boxes :nth-child(2) {
+    background-color: aqua;
+    clear: right;
+    /*Doesn't allows anything in its right side*/
+}
