@@ -1,0 +1,41 @@
+/* .boxes :first-child{
+            color: darkcyan;
+        } */
+/* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        a, p, .box, [data-color="primary"]{
+            margin-top: 45px
+        } */
+/* .boxes :nth-child(odd){
+            background-color: darkcyan;
+        }
+        .boxes :nth-child(even){
+            background-color: peru;
+        } */
+.boxes::before {
+    content: "Moderm Web Development ";
+    background-color: aqua;
+}
+
+.boxes::after {
+    content: "Future is Uncertain";
+    background-color: rgb(148, 32, 237);
+}
+
+::selection {
+    /* Adds Colors to the selected text*/
+    color: greenyellow;
+    background-color: black;
+}
+
+.boxes ::first-letter {
+    color: sandybrown;
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: rgb(102, 91, 111);
+    /* font-size: 20px;*/
+}
