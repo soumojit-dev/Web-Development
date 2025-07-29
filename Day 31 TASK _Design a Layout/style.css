@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: rgb(43, 35, 104);
+}
+
+/* Nav Bar */
+nav {
+  border: 2px solid navy;
+  background-color: navy;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+ul > li {
+  padding: 25px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+li:hover {
+  color: greenyellow;
+}
+
+::selection {
+  background-color: black;
+}
+
+/* Boxes */
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.box1,
+.box2 {
+  width: 550px;
+  height: 550px;
+  border: 2px solid white;
+}
+
+.box1 {
+  background-color: rgb(13, 41, 31);
+}
+
+.box2 {
+  background-color: rgb(77, 26, 93);
+}
+
+/* Card */
+.card {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card > h2 {
+  border: 2px solid white;
+  border-radius: 25px;
+  width: fit-content;
+  margin: 0 auto;
+  color: aqua;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer > .down {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
