@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    /*Start using flex properties*/
+    height: 40vh;
+    width: 99vw;
+    border: 2px solid black;
+    justify-content: center;
+    /*Center the items horizontally*/
+    align-items: center;
+    /*Center the items vertically*/
+    /* justify-content: flex-start; /*Change to flex-start*/
+    /* justify-content: flex-end; Change to flex-end */
+    /* justify-content: space-around; Change to space-around */
+    /* justify-content: space-between; Gives equal spaces in between the items */
+}
+
+.item {
+    height: 52px;
+    width: 52px;
+    background-color: greenyellow;
+    border: 2px solid navy;
+    margin: 5px;
+    padding: 5px;
+}
