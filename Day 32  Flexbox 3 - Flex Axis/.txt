@@ -1,0 +1,13 @@
+Main Axis: The flex-direction property defines the main axis and specifies along which direction the flex items are arranged. It is horizontal (row or row-reverse) or vertical (column or column-reverse).
+
+Cross Axis: The cross axis is the opposite direction of the main axis. For a horizontal main axis (row or row-reverse), the cross axis will be vertical. For a vertical main axis (column or column-reverse), the cross axis will be horizontal.
+
+Main Start and Main End: These are starting and ending points for the main axis. For row, main-start is to the left and main-end is to the right. For row-reverse, main-start is to the right and main-end is to the left. For column, main-start is at the top and main-end is at the bottom. For column-reverse, main-start is at the bottom and main-end is at the top.
+
+Cross Start and Cross End: These are the beginning and terminus of the cross axis. For a horizontal main axis, cross-start is at the top and cross-end is at the bottom. For a vertical main axis, cross-start is on the left and cross-end is on the right.
+
+Flex Direction Values: The property flex-direction contains four values: row (default), row-reverse, column, and column-reverse. These values specify the direction of the main axis.
+
+**Note** : Image is attached for reference
+
+**For More Info**: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox visit this.
