@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    /*Start using flex properties*/
+    width: 99vw;
+    border: 2px solid black;
+    justify-content: center;
+    /*Center the items horizontally*/
+    align-items: center;
+    /*Center the items vertically*/
+    flex-direction: column;
+    /*Change the direction of the items to 'COLUMN'*/
+    flex-direction: column-reverse;
+    /*Change the direction of the items to 'COLUMN-REVERSE'*/
+    flex-direction: row;
+    /*Change the direction of the items to 'ROW'*/
+    flex-direction: row-reverse;
+    /*Change the direction of the items to 'ROW-REVERSE'*/
+}
+
+.item {
+    height: 52px;
+    width: 52px;
+    background-color: #04ecb2;
+    border: 2px solid navy;
+    margin: 5px;
+    padding: 5px;
+}
