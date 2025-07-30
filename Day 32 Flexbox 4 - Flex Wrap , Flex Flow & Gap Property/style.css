@@ -7,13 +7,15 @@
     /* justify-content: center; */
     /*Center the items horizontally*/
     /* align-items: center; is USED WHEN THERE IS A SINGLE LINE */
-    align-content: center;
+    align-content: flex-start;
     /*align-content is USED WHEN THERE IS MORE THAN ONE LINE*/
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; WRAPS THE ITEMS IN REVERSE ORDER */
     /* Syntax of flex-flow: flex-direction || flex-wrap */
     flex-flow: column wrap;
-
+    /* row-gap: 40px;
+    column-gap: 20px; */
+    gap: 40px 20px; /* row-gap || column-gap */
 }
 
 .item {
@@ -21,6 +23,6 @@
     width: 52px;
     background-color: #9b14c4;
     border: 2px solid navy;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 5px;
 }
